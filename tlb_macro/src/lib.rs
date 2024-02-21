@@ -1,3 +1,5 @@
+// (c) ProgramCrafter, 2024
+
 extern crate proc_macro;
 use syn::{parse_macro_input, DeriveInput, Data, Expr, Fields, Ident, ItemEnum, Meta, MetaList, Lit, spanned::Spanned};
 use quote::{quote_spanned, quote, ToTokens};
